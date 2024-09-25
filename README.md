@@ -9,23 +9,23 @@ Datasets: The training and testing datasets are located in train_tweet.csv and t
 
 # Packages required
 To run this project, the following Python libraries are required:
-numpy
-pandas
-matplotlib
-seaborn
-sklearn
-nltk
-gensim
-wordcloud
-xgboost
-tqdm
+1. numpy
+2. pandas
+3. matplotlib
+4. seaborn
+5. sklearn
+6. nltk
+7. gensim
+8. wordcloud
+9. xgboost
+10. tqdm
 
 # Several machine learning models are trained and evaluated on the preprocessed data:
 
-Random Forest Classifier
-Logistic Regression
-Decision Tree Classifier
-Support Vector Classifier (SVC)
-XGBoost Classifier
+1. Random Forest Classifier
+2. Logistic Regression
+3. Decision Tree Classifier
+4. Support Vector Classifier (SVC)
+5. XGBoost Classifier
 
 

@@ -1,31 +1,73 @@
-# Sentimental-Analysis-of Twitter-Data
-This project performs sentiment analysis on a dataset of tweets using various machine learning algorithms. The goal is to classify tweets as positive (label: 1) or negative (label: 0). The project leverages text preprocessing techniques, word embeddings, and several classification models to achieve high accuracy on the dataset.
-twitter sentimental analysis is performed 
+# Twitter Sentiment Analysis
+
+## Project Overview
+This project performs sentiment analysis on Twitter data using various machine learning algorithms. The goal is to classify tweets as **positive (1)** or **negative (0)** based on the sentiment expressed in the text.
+
+The project applies Natural Language Processing (NLP) techniques for text preprocessing and feature extraction, followed by training multiple machine learning models to achieve accurate sentiment classification.
+
+## Features
+- Text preprocessing using NLP techniques
+- Stopword removal and tokenization
+- Feature extraction using text vectorization
+- Training multiple machine learning models
+- Model evaluation and performance comparison
+- Visualization of text data using WordCloud
+
+## Dataset
+The dataset contains labeled tweets used for training and testing the models.
+
+Files used:
+- `train_tweet.csv` – Training dataset
+- `test_tweets.csv` – Testing dataset
+
+Each tweet is labeled as:
+- **1 → Positive Sentiment**
+- **0 → Negative Sentiment**
+
+## Technologies Used
+
+Python Libraries:
+
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- nltk
+- gensim
+- wordcloud
+- xgboost
+- tqdm
+
+## Machine Learning Models Used
+
+The following classification algorithms were implemented and evaluated:
+
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- Support Vector Classifier (SVC)
+- XGBoost Classifier
+
+## Project Structure
+
+Twitter-Sentiment-Analysis
+│
+├── twitter_sentiment.py → Main Python code
+├── train_tweet.csv → Training dataset
+├── test_tweets.csv → Testing dataset
+└── README.md → Project documentation
 
 
-# Project Structure
-Main Python Code: The core code for sentiment analysis.(twitter_sentiment.py)
-Datasets: The training and testing datasets are located in train_tweet.csv and test_tweets.csv respectivel
+## Workflow
 
-# Packages required
-To run this project, the following Python libraries are required:
-1. numpy
-2. pandas
-3. matplotlib
-4. seaborn
-5. sklearn
-6. nltk
-7. gensim
-8. wordcloud
-9. xgboost
-10. tqdm
+1. Data Collection
+2. Data Preprocessing
+3. Feature Extraction
+4. Model Training
+5. Model Evaluation
+6. Sentiment Prediction
 
-# Several machine learning models are trained and evaluated on the preprocessed data:
+## Output
 
-1. Random Forest Classifier
-2. Logistic Regression
-3. Decision Tree Classifier
-4. Support Vector Classifier (SVC)
-5. XGBoost Classifier
-
-
+The trained model predicts whether a tweet expresses **positive or negative sentiment**.
